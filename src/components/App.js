@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Header from './Header';
 import Home from './Home';
+import '../index.css'
 import MovieList from './MovieList';
 import { BrowserRouter, Route } from "react-router-dom";
 import MovieDetails from './MovieDetails';

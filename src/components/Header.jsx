@@ -23,12 +23,13 @@ import { withRouter,Link } from 'react-router-dom';
                                </h3>
                            </div>
                            <div className="col-md-8">
-                               <form onSubmit={this.submitHandler}>
+                               <form onSubmit={this.submitHandler} className="form">
 
                                <input type="search"
                                ref="searchTf" 
                                placeholder="Search Movies..."
                                className="form-control"/>
+                               <button onClick={this.submitHandler} className="searchbtn">Search Movie</button>
                                </form>
                            </div>
                        </div>

@@ -12,11 +12,16 @@ code {
     monospace;
 }
 .searchbtn{
-  width: 15%;
+  width: 20%;
   background-color: rgb(226, 62, 62);
   border: none;
   border-radius: 4px;
 }
 .form{
   display: flex;
+}
+.movieimg{
+  position: relative;
+  min-width: none !important;
+  width: 100% !important;
 }
